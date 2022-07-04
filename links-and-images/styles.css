@@ -1,0 +1,83 @@
+p {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 150%;
+}
+
+h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 250%;
+}
+
+header {
+    background-color: rgb(61, 61, 61);
+    color: white;
+    padding: 20px;
+    
+}
+
+section {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+footer {
+    background: rgb(167, 167, 167);
+    color: rgb(54, 54, 54);
+    margin-top: 30px;
+    padding: 3px;
+}
+
+div {
+    margin: auto;
+    background-color: rgb(61, 61, 61);
+    color: white;
+    padding: 10px;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 15px;
+    background-color: rgb(187, 187, 187);
+    padding: 10px;
+}
+
+
+/* gallery stuff */
+div.gallery {
+    margin: 5px;
+    float: left;
+    width:100%;
+  }
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+#hobbyList {
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  section.description{
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
